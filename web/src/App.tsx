@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
 import './styles/main.css';
-import logoNlw from './assets/logo.svg';
 import { GameBanner } from './components/GameBanner';
 import { CreateAdBanner } from './components/CreateAdBanner';
 import { CreateAdModal } from './components/CreateAdModal';
@@ -29,7 +28,7 @@ function App() {
 
   return (
     <div className='max-w-[1344px] mx-auto flex items-center flex-col my-20 '>
-      <img src={logoNlw} alt="" />
+      <img src='/src/assets/logo.svg' alt="Logo" />
 
       <h1 className='text-6xl text-white font-black mt-20'>Seu <span className='bg-nlw-gradient text-transparent bg-clip-text'>duo</span> está aqui.</h1>
 
